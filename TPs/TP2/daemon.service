@@ -1,0 +1,8 @@
+[Unit]
+Description=My Daemon
+
+[Service]
+ExecStart=/home/zezao/2324-G03/TPs/TP2/daemon
+
+[Install]
+WantedBy=multi-user.target

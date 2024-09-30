@@ -1,0 +1,8 @@
+[Unit]
+Description=My Daemon
+
+[Service]
+ExecStart=/home/zezao/2324-G03/Guioes/S10/demon
+
+[Install]
+WantedBy=multi-user.target
